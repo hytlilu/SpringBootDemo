@@ -29,9 +29,17 @@ public class HelloController {
     @Value("${person.name}")
     private String name;
 
+    @Value("${status.eat}")
+    private String status;
+
     @RequestMapping("/hello")
     public String hello(){
         System.out.println(name);
         return "hello"+name;
+    }
+
+    @RequestMapping("/status")
+    public String status(){
+        return status;
     }
 }

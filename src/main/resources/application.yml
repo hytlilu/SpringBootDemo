@@ -5,3 +5,8 @@ server:
   port: 8080
 person:
  name: lilu
+
+status:
+  work: working
+  study: studying
+  eat: eating
