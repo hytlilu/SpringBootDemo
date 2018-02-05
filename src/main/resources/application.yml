@@ -1,0 +1,7 @@
+﻿#服务配置信息
+server:
+  address: localhost
+  context-path: /lilu
+  port: 8080
+person:
+ name: lilu
