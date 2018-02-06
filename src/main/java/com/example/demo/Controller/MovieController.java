@@ -20,8 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MovieController {
 
     @RequestMapping
-    public String watchingMovie(){
-
+    public String watchingMovie() {
         return "Go to a movie！";
     }
 
