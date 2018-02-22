@@ -3,10 +3,23 @@ server:
   address: localhost
   context-path: /lilu
   port: 8080
+  tomcat:
+    uri-encoding: utf-8
 person:
- name: lilu
+ name: 藜芦
 
 status:
   work: working
   study: studying
   eat: eating
+
+#配置字符集编码为UTF-8
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  messages:
+    encoding: UTF-8
+
