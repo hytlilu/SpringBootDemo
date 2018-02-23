@@ -1,10 +1,7 @@
 package com.example.demo;
 
-import com.example.demo.Controller.HelloController;
-import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 
 /**
  * SpringBoot项目启动类
